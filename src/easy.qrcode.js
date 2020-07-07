@@ -1336,8 +1336,8 @@
                 var dataURL = this._elCanvas.toDataURL("image/png");
                 this._elImage.src = dataURL
                 this.dataURL = dataURL;
-                this._elImage.style.display = "inline";
-                this._elCanvas.style.display = "none";
+                this._elImage.style.display = "none";
+                this._elCanvas.style.display = "block";
             } catch (e) {
                 console.error(e)
             }
